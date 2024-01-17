@@ -18,6 +18,16 @@ export class ProductComponent{
             name:'Axle',
             employeeId: 1234,
             department:'IT'
-        }
+        },
+        {
+            name:'Jean',
+            employeeId: 1235,
+            department:'Finance'
+        },
+        {
+            name:'Barb',
+            employeeId: 1236,
+            department:'IT'
+        },
     ]
 }
