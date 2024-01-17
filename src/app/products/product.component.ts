@@ -3,7 +3,8 @@ import { Component } from "@angular/core";
 @Component({
     selector: 'app-product',
     template: `<li *ngFor="let dept of departments">
-            {{dept}}</li>`
+            {{dept}}</li>`,
+    styles: ['li {color: green; margin-top: 10px}']
 })
 export class ProductComponent{
     departments = [
