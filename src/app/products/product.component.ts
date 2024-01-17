@@ -3,7 +3,10 @@ import { Component } from "@angular/core";
 @Component({
     selector: 'app-product',
     template: `<li *ngFor="let dept of departments">
-            {{dept}}</li>`,
+            {{dept}}</li>
+            <li *ngFor = 'let employee og employees'>
+                {{employee.name}}
+            </li>`,
     styles: ['li {color: green; margin-top: 10px}']
 })
 export class ProductComponent{
@@ -12,9 +15,9 @@ export class ProductComponent{
     ]
     employees = [
         {
-            name:'',
-            employeeId: 0,
-            department:''
+            name:'Axle',
+            employeeId: 1234,
+            department:'IT'
         }
     ]
 }
