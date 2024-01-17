@@ -10,4 +10,11 @@ export class ProductComponent{
     departments = [
         'Mountain Bicylces','Road bikes','Hybrid bikes','Bike pumps'
     ]
+    employees = [
+        {
+            name:'',
+            employeeId: 0,
+            department:''
+        }
+    ]
 }
