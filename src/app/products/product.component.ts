@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+declare const genRandomNumbers:any;
 
 @Component({
     selector: 'app-product',
@@ -6,7 +7,11 @@ import { Component } from "@angular/core";
             {{dept}}</li>
             <li *ngFor = 'let employee og employees'>
                 {{employee.name}}
-            </li>`,
+            </li>
+            <h2>Product List</h2>
+            <div></div>
+            `,
+            
     styles: ['li {color: green; margin-top: 10px}']
 })
 export class ProductComponent{
@@ -30,4 +35,5 @@ export class ProductComponent{
             department:'IT'
         },
     ]
+    rNum = <[]>genRandomNumbers();
 }
