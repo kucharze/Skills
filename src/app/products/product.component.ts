@@ -36,4 +36,6 @@ export class ProductComponent{
         },
     ]
     rNum = <[]>genRandomNumbers();
+    page: Number = 1;
+    itemsToDisplay: Number = 10;
 }
